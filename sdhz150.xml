@@ -5,6 +5,10 @@
            fetch="https://github.com/sdhz150"
            revision="refs/heads/arrow-9.x" />
 
+  <remote  name="sdhz151"
+           fetch="https://github.com/sdhz151"
+           revision="refs/heads/pie" />
+
   <project path="android" name="android_manifest" remote="sdhz150" />
   <project path="build/make" name="android_build" remote="sdhz150" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -30,5 +34,6 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="sdhz150" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="sdhz150" />
   <project path="vendor/arrow" name="android_vendor_arrow" remote="sdhz150" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="sdhz151" />
 </manifest>
 
