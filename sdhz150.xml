@@ -30,6 +30,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sdhz150" />
   <project path="packages/providers/PhoneLocationProvider" name="android_packages_provider_PhoneLocationProvider" remote="sdhz150" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sdhz150" />
   <project path="external/suda/SudaSDKs" name="android_external_suda_SudaSDKs" remote="sdhz150" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="sdhz150" revision="lineage-17.1-caf-msm8994" />
